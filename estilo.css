@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    padding: 0px 10px 0px 10px;
+    margin-left: 70px;
+        /* position: relative;
+    flex-direction: row;
+    justify-content: center; */
+}
+
+body p {
+    font-size: 12px; 
+    
+}
+
+body div article {
+    position: relative;
+    width: 280px;
+    height: 80px;
+    top: 2px;
+    left: 150px;
+    right: 10px;
+    text-align: justify;
+    /* border: solid 1px black; */
+}
+
+body h1 {
+    font-size: 18px;
+    position: relative; 
+    top: 2px;
+    left: 150px;
+    text-transform: uppercase;
+}
+
+
+.boxover {
+    width: 1000px;
+    height: 530px;
+    padding: 10px 10px;
+    border: solid 2px black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.box {
+    width: 450px;
+    height: 200px;
+    padding: 5px 10px 10px 5px;
+    border: solid 2px black;
+   
+}
+
+.botao{
+    position: relative;
+    bottom: 130px;
+    left: 150px;
+    border: solid 0.5px black;
+    background-color: gray;
+    text-decoration-color: brown;
+}
+
+.user {
+    width: 120px;
+    height: 140px;
+    position: relative;
+    bottom: 110px;
+    left: 10px;
+    
+}
+
+.redesocial{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    bottom: 110px;
+    left: 30px;
+}
